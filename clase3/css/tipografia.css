@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Ojuju:wght@200..800&display=swap');
+
+body{
+    /* comentario */
+    background-color: hsl(260, 60%, 15%);
+    color:  hsl(310, 65%, 76%);
+    font-family: "Figtree", sans-serif;
+    font-weight: 300;
+}
+h1{
+    color:  hsl(310, 80%, 86%);
+    font-weight: 300;
+    font-size: 40px;
+}
