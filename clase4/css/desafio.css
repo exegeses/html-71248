@@ -1,0 +1,20 @@
+body{
+    /* background-color: #a8bcff; */
+    background-image: url(../imgs/pg-bg.png);
+}
+/*main{
+
+}*/
+#contacto{
+    width: 768px;
+    height: 500px;
+    margin: auto;
+    /* background-color: #989df5; */
+    background-image: url(../imgs/main-bg.png);
+    /* tamaño de imagen de fondo */
+    background-size: cover;
+    /* posición de imagen de fondo */
+    background-position: center center;
+
+    color: white;
+}
