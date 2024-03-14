@@ -1,0 +1,28 @@
+body{
+    background-color: #162c24;
+    color: hsl(158, 33%, 80%);
+    font-family: 'Tahoma';
+}
+/* Utilizamos margin para separar un elemento de otro */
+#verde{
+    height: 156px;
+    width: 156px;
+    background-color: #a0f7da;
+    margin-top: 64px;
+    margin-left: 80px;
+    margin-bottom: 32px;
+}
+#celeste{
+    height: 156px;
+    width: 156px;
+    margin: auto;
+    background-color: #a0ccf7;
+}
+#violeta{
+    height: 156px;
+    width: 156px;
+    margin: 104px;
+    background-color: #dda0f7;
+}
+
+/* Un uso particular de margin es para centrar un contenedor */

@@ -1,0 +1,40 @@
+body{
+    background-color: #200858;
+}
+main{
+    width: 768px;
+    margin: auto;
+    color: hsl(258, 83%, 80%);
+}
+#primero{
+    height: 400px;
+    margin: 40px 0px;
+    background-color: hsl(258, 83%, 26%);
+}
+    /* Todas las imágenes que estén dentro del contenedor #primero */
+    #primero img{
+        vertical-align: middle;
+        /* Alinear en el eje vertical respecto de la imagen */
+    }
+
+#segundo{
+    height: 500px;
+    margin: 40px 0px;
+    background-color: hsl(258, 83%, 26%);
+    /* Centrar en horizontal todo el contenido de el contenedor #segundo */
+    text-align: center;
+}
+
+#tercero{
+    height: 400px;
+    margin: 40px 0px;
+    background-color: hsl(258, 83%, 26%);
+    /* distribución de contenidos  */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+    #tercero article{
+        width: 128px;
+        background-color: hsl(258, 83%, 23%);
+    }
