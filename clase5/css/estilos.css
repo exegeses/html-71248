@@ -1,0 +1,19 @@
+body{
+    background-color: #ddeefc;
+}
+
+#auto{
+
+}
+/* al poner el mouise sobre */
+#auto:hover{
+    width: 512px;
+}
+
+
+#lente{
+    width: 128px;
+}
+#lente:hover{
+    width: 512px;
+}

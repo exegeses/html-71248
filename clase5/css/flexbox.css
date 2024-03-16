@@ -1,0 +1,66 @@
+body{
+    background-color: #1e1008;
+    color: hsl(22, 58%, 85%);
+    font-family: Tahoma;
+    font-weight: 300;
+    width: 640px;
+    margin: auto;
+}
+h1{
+    margin: 32px 0px;
+    font-weight: 300;
+}
+h2{
+    margin: 32px 0px 16px 0px;
+    font-weight: 300;
+}
+
+#contenedor{
+    height: 400px;
+    background-color: hsl(22, 32%, 16%);
+    display: flex;
+    /* Distribución en el eje horizontal */
+    /* justify-content: start; /* predeterminado: a la izquierda */
+    /* justify-content: end; /* a la derecha */
+    justify-content: center;
+}
+#contenedor2{
+    height: 400px;
+    background-color: hsl(22, 32%, 16%);
+    display: flex;
+    /* Distribución en el eje vertical */
+    /* align-items: start; /* Predeterminado: en la parte superior */
+    /* align-items: end; /* En la parte inferior */
+    align-items: center;
+}
+#contenedor3{
+    height: 400px;
+    background-color: hsl(22, 32%, 16%);
+    display: flex;
+    /* en horizontal */
+    /* justify-content: center;*/
+    justify-content: space-evenly;
+    /* en vertical */
+    align-items: center;
+}
+    article{
+        width: 128px;
+        height: 128px;
+        background-color: #1e120b;
+        border: 1px solid  hsl(22, 58%, 85%);;
+    }
+
+
+/*##########  ejemplo header  ¢¢¢*/
+header{
+    height: 104px;
+    background-color: hsl(22, 32%, 16%);
+    display: flex;
+    /* Separación entre elementos */
+    justify-content: space-between;
+    align-items: center;
+}
+
+    #logo{
+        height: 64px;
+    }
