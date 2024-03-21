@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* reseteo de margenes y rellenos */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: #202630;
+    font-family: "Figtree", sans-serif;
+    font-weight: 300;
+}
+/* globales */
+a{
+    text-decoration: none;
+}
+
+
+/* header */
+header{
+    background-color: #5B86E5;
+}
+    header div{
+        width: 1100px;
+        height: 104px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* isologo */
+    header div a img{
+        margin-left: 16px;
+    }
+    /* navegación */
+    header div nav a{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 8px;
+    }
+
+/*  main  */
+
+    /* hero-banner */
+    #hero-banner{
+        /*
+        * Created with https://www.css-gradient.com
+        * Gradient link: https://www.css-gradient.com/?c1=5b86e5&c2=37d2dc&gt=l&gd=dcl
+        */
+        background: #5B86E5;
+        background: linear-gradient(180deg, #5B86E5, #37D2DC);
+    }
+        #hero-banner article{
+            width: 1100px;
+            height: 680px;
+            margin: auto;
+            /* background-color: rgba(255, 255, 255, 10%); */
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+            #hero-banner article div{
+                width: 550px;
+                color: #fff;
+            }
+                #hero-banner article div h1{
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin-bottom: 32px;
+                }
+                #hero-banner article div h2{
+                    font-size: 40px;
+                    width: 478px;
+                }
+
+    /* sección servicios */
+    #servicios{
+        width: 1100px;
+        margin: 72px auto 0px auto;
+        background-color: #cfe2f5;
+    }
