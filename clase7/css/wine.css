@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 980px;
+    margin: auto;
+    height: 262px;
+    background-color: #000;
+    background-image: url(../imgs/logo-wine.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    /* separación interna */
+    padding: 24px;
+}
+    header a{
+        margin-left: 16px;
+    }
+
+nav{
+    width: 980px;
+    margin: 24px auto 0px auto;
+    height: 32px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    nav a{
+        color: #000;
+    }
